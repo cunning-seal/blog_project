@@ -1,4 +1,2 @@
-[requires]
-python=3.7.1
-
+release: python manage.py migrate
 web: gunicorn blog_project.wsgi
